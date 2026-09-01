@@ -284,29 +284,24 @@ MEDIUM FLOOD RISK
 
 ## 🔴 High Flood Risk Prediction
 
-
-<img src="screenshots/high-risk.png" width="800">
+![High Flood Risk Prediction](./screenshots/high-risk.png)
 
 
 ---
-
 
 ## 🟠 Medium Flood Risk Prediction
 
+![Medium Flood Risk Prediction 1](./screenshots/medium-risk-1.png)
 
-<img src="screenshots/medium-risk-1.png" width="800">
 
-
-<img src="screenshots/medium-risk-2.png" width="800">
+![Medium Flood Risk Prediction 2](./screenshots/medium-risk-2.png)
 
 
 ---
 
-
 ## 🟢 Low Flood Risk Prediction
 
-
-<img src="screenshots/low-risk.png" width="800">
+![Low Flood Risk Prediction](./screenshots/low-risk.png)
 
 
 ---
