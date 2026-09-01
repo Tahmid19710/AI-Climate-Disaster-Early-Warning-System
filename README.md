@@ -1,52 +1,55 @@
 # 🌊 AI Climate Disaster Early Warning System
 
-An AI-powered flood risk prediction system that combines satellite image analysis and climate risk factors to provide early flood warnings.
+An AI-powered flood risk prediction system that combines **satellite image analysis** and **climate risk factors** to provide early flood warnings.
 
-The system uses Deep Learning and Machine Learning techniques to analyze environmental conditions and estimate flood probability.
+The system uses **Deep Learning and Machine Learning techniques** to analyze environmental conditions and estimate flood probability.
 
 ---
 
 # 🚀 Features
 
-- Satellite image based flood detection
-- Climate risk factor analysis
-- AI based flood probability prediction
-- Combined risk score generation
-- Flood warning classification
-- Interactive web interface
+- 🛰 Satellite image based flood detection
+- 🌦 Climate risk factor analysis
+- 🤖 AI-based flood probability prediction
+- 📊 Combined risk score generation
+- 🚨 Flood warning classification
+- 🌐 Interactive web interface
+
 
 ---
 
 # 🏗️ System Architecture
 
 
-User Input
+```
+                 User Input
 
-       |
-       |
+                     |
+                     |
 
-Satellite Image + Climate Data
+        Satellite Image + Climate Data
 
-       |
-       |
+                     |
+                     |
 
-Deep Learning Model
-(MobileNetV2)
+              Deep Learning Model
+                  (MobileNetV2)
 
-       |
-       |
+                     |
+                     |
 
-Climate Risk Model
+              Climate Risk Model
 
-       |
-       |
+                     |
+                     |
 
-Risk Score Fusion
+              Risk Score Fusion
 
-       |
-       |
+                     |
+                     |
 
-Flood Warning Result
+             Flood Warning Result
+```
 
 
 ---
@@ -54,31 +57,33 @@ Flood Warning Result
 # 🧠 Machine Learning Workflow
 
 
+```
 Input Data
 
-↓
+     ↓
 
 Data Preprocessing
 
-↓
+     ↓
 
 Feature Extraction
 
-↓
+     ↓
 
 Deep Learning Image Analysis
 
-↓
+     ↓
 
 Climate Risk Evaluation
 
-↓
+     ↓
 
 Prediction Fusion
 
-↓
+     ↓
 
 Flood Risk Classification
+```
 
 
 ---
@@ -86,41 +91,40 @@ Flood Risk Classification
 # 📂 Project Structure
 
 
+```
 AI-Climate-Disaster-Early-Warning-System
 
 │
-
 ├── backend
-
-│   ├── app.py
-
-│   ├── models
-
-│   │   ├── flood_detection_mobilenetv2.keras
-
-│   │   ├── flood_model.json
-
-│   │   └── config.json
-
 │   │
-
+│   ├── app.py
+│   │
+│   ├── models
+│   │   ├── flood_detection_mobilenetv2.keras
+│   │   ├── flood_model.json
+│   │   └── config.json
+│   │
 │   └── uploads
-
 │
-
+│
 ├── frontend
-
 │   ├── index.html
-
 │   ├── script.js
-
 │   └── style.css
-
 │
-
+│
+├── screenshots
+│   ├── high-risk.png
+│   ├── medium-risk-1.png
+│   ├── medium-risk-2.png
+│   └── low-risk.png
+│
+│
 ├── requirements.txt
-
+│
 └── README.md
+
+```
 
 
 ---
@@ -165,6 +169,7 @@ git clone https://github.com/Tahmid19710/AI-Climate-Disaster-Early-Warning-Syste
 
 Go to project directory:
 
+
 ```bash
 cd AI-Climate-Disaster-Early-Warning-System
 ```
@@ -180,9 +185,10 @@ python -m venv .venv
 ```
 
 
-Activate:
+Activate environment:
 
-Windows:
+
+### Windows
 
 ```bash
 .venv\Scripts\activate
@@ -204,7 +210,8 @@ pip install -r requirements.txt
 # ▶️ Run Backend
 
 
-Go to backend:
+Go to backend directory:
+
 
 ```bash
 cd backend
@@ -212,6 +219,7 @@ cd backend
 
 
 Run Flask server:
+
 
 ```bash
 python app.py
@@ -237,7 +245,7 @@ frontend/index.html
 ```
 
 
-or use VS Code Live Server.
+or use VS Code Live Server extension.
 
 
 ---
@@ -271,10 +279,52 @@ MEDIUM FLOOD RISK
 
 ---
 
+# 🖥️ System Screenshots
+
+
+## 🔴 High Flood Risk Prediction
+
+
+<img src="screenshots/high-risk.png" width="800">
+
+
+---
+
+
+## 🟠 Medium Flood Risk Prediction
+
+
+<img src="screenshots/medium-risk-1.png" width="800">
+
+
+<img src="screenshots/medium-risk-2.png" width="800">
+
+
+---
+
+
+## 🟢 Low Flood Risk Prediction
+
+
+<img src="screenshots/low-risk.png" width="800">
+
+
+---
+
 # 🔌 API Endpoint
 
 
+## Flood Prediction API
+
+
+Method:
+
+```
 POST
+```
+
+
+Endpoint:
 
 ```
 /final_prediction
@@ -289,12 +339,13 @@ Input:
 
 Output:
 
+
 ```json
 {
-"image_probability":0.68,
-"climate_risk":0.50,
-"final_score":0.61,
-"warning":"MEDIUM FLOOD RISK"
+    "image_probability":0.68,
+    "climate_risk":0.50,
+    "final_score":0.61,
+    "warning":"MEDIUM FLOOD RISK"
 }
 ```
 
@@ -303,7 +354,8 @@ Output:
 
 # 👨‍💻 Developer
 
-Tahmid Anjum
+
+**Tahmid Anjum**
 
 AI / Machine Learning Developer
 
@@ -312,8 +364,14 @@ AI / Machine Learning Developer
 
 # 📌 Future Improvements
 
+
 - Real-time satellite data integration
 - Weather API integration
 - GIS based flood mapping
 - Real-time disaster alert system
 - Mobile application development
+
+
+---
+
+⭐ If you find this project useful, consider giving it a star on GitHub.
