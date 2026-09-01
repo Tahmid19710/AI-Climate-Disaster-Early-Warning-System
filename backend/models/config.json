@@ -1,0 +1,8 @@
+{
+    "model": "MobileNetV2",
+    "threshold": 0.4,
+    "classes": {
+        "0": "No Flood",
+        "1": "Flood"
+    }
+}

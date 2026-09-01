@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+AI Climate Disaster Early Warning System
+</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>
+🌊 AI Climate Disaster Early Warning System
+</h1>
+
+
+
+
+
+<!-- IMAGE SECTION -->
+
+<div class="card">
+
+
+<h2>
+Satellite Image Analysis
+</h2>
+
+
+<input
+type="file"
+id="image"
+accept="image/*"
+>
+
+
+<br>
+
+
+<img
+id="preview"
+style="width:300px; margin-top:20px; border-radius:15px;"
+>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- CLIMATE SECTION -->
+
+
+<div class="card">
+
+
+<h2>
+Climate Risk Factors
+</h2>
+
+
+
+<div class="grid">
+
+
+
+<div>
+<label>Monsoon Intensity</label>
+<input id="MonsoonIntensity" value="5">
+</div>
+
+
+<div>
+<label>Topography Drainage</label>
+<input id="TopographyDrainage" value="5">
+</div>
+
+
+<div>
+<label>River Management</label>
+<input id="RiverManagement" value="5">
+</div>
+
+
+<div>
+<label>Deforestation</label>
+<input id="Deforestation" value="5">
+</div>
+
+
+<div>
+<label>Urbanization</label>
+<input id="Urbanization" value="5">
+</div>
+
+
+<div>
+<label>Climate Change</label>
+<input id="ClimateChange" value="5">
+</div>
+
+
+<div>
+<label>Dams Quality</label>
+<input id="DamsQuality" value="5">
+</div>
+
+
+<div>
+<label>Siltation</label>
+<input id="Siltation" value="5">
+</div>
+
+
+<div>
+<label>Agricultural Practices</label>
+<input id="AgriculturalPractices" value="5">
+</div>
+
+
+<div>
+<label>Encroachments</label>
+<input id="Encroachments" value="5">
+</div>
+
+
+<div>
+<label>Disaster Preparedness</label>
+<input id="IneffectiveDisasterPreparedness" value="5">
+</div>
+
+
+<div>
+<label>Drainage Systems</label>
+<input id="DrainageSystems" value="5">
+</div>
+
+
+<div>
+<label>Coastal Vulnerability</label>
+<input id="CoastalVulnerability" value="5">
+</div>
+
+
+<div>
+<label>Landslides</label>
+<input id="Landslides" value="5">
+</div>
+
+
+<div>
+<label>Watersheds</label>
+<input id="Watersheds" value="5">
+</div>
+
+
+<div>
+<label>Infrastructure</label>
+<input id="DeterioratingInfrastructure" value="5">
+</div>
+
+
+<div>
+<label>Population Score</label>
+<input id="PopulationScore" value="5">
+</div>
+
+
+<div>
+<label>Wetland Loss</label>
+<input id="WetlandLoss" value="5">
+</div>
+
+
+<div>
+<label>Planning</label>
+<input id="InadequatePlanning" value="5">
+</div>
+
+
+<div>
+<label>Political Factors</label>
+<input id="PoliticalFactors" value="5">
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<button 
+type="button"
+id="predictBtn">
+
+Analyze Flood Risk
+
+</button>
+
+
+
+
+
+
+<div class="card result">
+
+
+<h2>
+🤖 AI Prediction Result
+</h2>
+
+
+<div id="result">
+
+Waiting for analysis...
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
